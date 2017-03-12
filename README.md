@@ -1,6 +1,7 @@
 # YouDaoAPI_Demo
 使用有道API
 
+```
 {
     "translation":[
         "医生"
@@ -44,3 +45,14 @@
         }
     ]
 }
+```
+![image](https://github.com/xbw12138/YouDaoAPI_Demo/blob/master/ScreenShot/Screenshot_20170312-184907.png)
+![image](https://github.com/xbw12138/YouDaoAPI_Demo/blob/master/ScreenShot/Screenshot_20170312-184922.png)
+
+发现了一个比较棒的网站，可以直接根据json转化为gson java类，很方便
+
+
+[](http://www.jsonschema2pojo.org/)http://www.jsonschema2pojo.org/
+
+开源的呢
+
