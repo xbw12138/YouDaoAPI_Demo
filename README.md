@@ -48,6 +48,9 @@
 ```
 ![image](https://github.com/xbw12138/YouDaoAPI_Demo/blob/master/ScreenShot/Screenshot_20170312-184907.png)
 ![image](https://github.com/xbw12138/YouDaoAPI_Demo/blob/master/ScreenShot/Screenshot_20170312-184922.png)
+更新
+更新服务器端，展示我们搜索过的单词。
+![image](https://github.com/xbw12138/YouDaoAPI_Demo/blob/master/ScreenShot/Screenshot_20170313-225304.png)
 
 发现了一个比较棒的网站，可以直接根据json转化为gson java类，很方便
 
