@@ -1,4 +1,7 @@
 # YouDaoAPI_Demo
+更新
+更新服务器端，展示我们搜索过的单词。
+监听摇一摇服务启动桌面悬浮搜索框，避免了输入法与其他应用的冲突，也解决了有悬浮窗的时候返回键失效的问题。
 使用有道API
 
 ```
@@ -48,8 +51,7 @@
 ```
 ![image](https://github.com/xbw12138/YouDaoAPI_Demo/blob/master/ScreenShot/Screenshot_20170312-184907.png)
 ![image](https://github.com/xbw12138/YouDaoAPI_Demo/blob/master/ScreenShot/Screenshot_20170312-184922.png)
-更新
-更新服务器端，展示我们搜索过的单词。
+
 ![image](https://github.com/xbw12138/YouDaoAPI_Demo/blob/master/ScreenShot/Screenshot_20170313-225304.png)
 
 发现了一个比较棒的网站，可以直接根据json转化为gson java类，很方便
