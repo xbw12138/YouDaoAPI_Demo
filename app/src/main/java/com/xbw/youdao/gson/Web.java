@@ -1,5 +1,5 @@
 
-package com.xbw.youdao;
+package com.xbw.youdao.gson;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;

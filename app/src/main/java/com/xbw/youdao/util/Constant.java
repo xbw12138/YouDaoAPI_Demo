@@ -1,4 +1,4 @@
-package com.xbw.youdao;
+package com.xbw.youdao.util;
 
 /**
  * Created by wwjun.wang on 2015/8/11.

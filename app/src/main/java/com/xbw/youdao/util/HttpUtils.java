@@ -1,4 +1,4 @@
-package com.xbw.youdao;
+package com.xbw.youdao.util;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
@@ -6,6 +6,7 @@ import android.net.NetworkInfo;
 
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.ResponseHandlerInterface;
+import com.xbw.youdao.util.Constant;
 
 /**
  * Created by wwjun.wang on 2015/8/11.

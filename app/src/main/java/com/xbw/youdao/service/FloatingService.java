@@ -1,4 +1,4 @@
-package com.xbw.youdao;
+package com.xbw.youdao.service;
 
 import android.app.Service;
 import android.content.Context;
@@ -16,22 +16,19 @@ import android.view.View.OnTouchListener;
 import android.view.WindowManager;
 import android.view.WindowManager.LayoutParams;
 import android.widget.Button;
-import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.Toast;
 import android.widget.EditText;
 
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-import com.xbw.youdao.HttpUtils;
 import com.google.gson.JsonSyntaxException;
 import com.loopj.android.http.TextHttpResponseHandler;
-import org.apache.http.Header;
+import com.xbw.youdao.gson.Example;
+import com.xbw.youdao.R;
+import com.xbw.youdao.util.Constant;
+import com.xbw.youdao.util.HttpUtils;
 
-import java.lang.reflect.Type;
-import java.util.List;
+import org.apache.http.Header;
 
 /**
  * @author:Jack Tony
@@ -129,8 +126,10 @@ public class FloatingService extends Service{
 		wmParams = new LayoutParams();
 		//设置window type 下面变量2002是在屏幕区域显示，2003则可以显示在状态栏之上
 		//wmParams.type = LayoutParams.TYPE_PHONE; 
-		//wmParams.type = LayoutParams.TYPE_SYSTEM_ALERT; 
+		//wmParams.type = LayoutParams.TYPE_SYSTEM_ALERT;
+		//wmParams.type = LayoutParams.TYPE_TOAST;
 		wmParams.type = LayoutParams.TYPE_TOAST;
+
 		//设置图片格式，效果为背景透明
         wmParams.format = PixelFormat.RGBA_8888; 
         //设置浮动窗口不可聚焦（实现操作除浮动窗口外的其他可见窗口的操作）
